@@ -1,0 +1,441 @@
+.logo{
+    font-size: large;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    display: flex;
+    position: relative;
+    bottom: 250px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    right: 200px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 600px;
+    width: 100%;
+    background-color: rgb(58, 69, 87);
+}
+
+body{
+    margin: 0;
+}
+.hello_text{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    right: 600px;
+    width: 700px;
+  font-family: "Oswald", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    }
+.start_button{
+    position: relative;
+    top: 130px;
+    right: 1240px;
+    font-size: 60px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+   
+}   
+
+.start_button:hover {
+    background-color: #423bce;
+}
+
+
+.start_button:active {
+    background-color: #362bb8;
+}
+.start{
+    box-shadow: 0 0 0 1 black;
+}
+.start_icons{
+    position: relative;
+    bottom: 7px;
+    left: 1110px;
+    width: 30px;
+    height: 30px;
+    
+}
+body{
+    height: 4000px;
+    background-color: rgb(214, 214, 214);
+    
+}
+
+.lamp{
+    position: relative;
+    bottom: 1050px;
+    left: 220px;
+    
+}
+
+.sertificat{
+    position: relative;
+    bottom: 1050px;
+    right: 200px;
+    
+}
+
+.kubok{
+    position: relative;
+    bottom: 510px;
+    right: 10px;
+}
+
+@keyframes floatAndRotate {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+.lamp {
+  animation: floatAndRotate 6s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.kubok {
+  animation: floatAndRotate1 9s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.sertificat {
+  animation: floatAndRotate2 10s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+@keyframes floatAndRotate1 {
+  0% {
+    transform: translateY(20px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-50px) rotate(5deg);
+  }
+  70%{
+    transform: translateY(0px) rotate(0deg);
+  }
+  85%{
+    transform: translateY(-50px) rotate(-20deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+@keyframes floatAndRotate2 {
+  0% {
+    transform: translateY(20px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(50px) rotate(20deg);
+  }
+  70%{
+    transform: translateY(-50px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+.start_conteiner{
+    display: flex;
+    position: relative;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+
+.start_photo{
+    position: relative;
+    bottom: 300px;
+    width: 640px;
+    height: 622px;
+    right: 280px;
+    
+}
+.autumn_leaves{
+    width: 140px;
+    height: 80px;
+}
+
+.eng_img{
+    width: 300;
+    height: 250px;
+}
+.englessons{
+    position: absolute;
+    top: 500px;
+    right: 600px;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    width: 500px;
+    font-family: "Oswald", sans-serif;
+    border-radius: 50px;
+    background: -webkit-linear-gradient(top, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+    margin: 200px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 600px;
+    padding: 30px;
+    transition: background-color 0.3s ease;
+}
+.englessons:hover{
+    background-color: rgb(228, 228, 228);
+}
+.engtime_btn{
+    position: relative;
+    bottom: 20px;
+    font-size: 30px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.engtime_btn:hover {
+    background-color: #332db3;
+}
+.inf_img{
+    width: 300;
+    height: 250px;
+}
+.informaticslessons{
+  position: absolute;
+    top: 500px;
+    right: -150px;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    width: 500px;
+    font-family: "Oswald", sans-serif;
+    border-radius: 50px;
+    background: -webkit-linear-gradient(top, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+    margin: 200px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 600px;
+    padding: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.inf_btn{
+    position: relative;
+    bottom: 20px;
+    font-size: 30px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.inf_btn:hover {
+    background-color: #332db3;
+}
+
+.informaticslessons:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+/* ...existing code... */
+
+/* Add these media queries at the end of your CSS file */
+
+/* For tablets and smaller desktops (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  .logo {
+    right: 0;
+    bottom: 150px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .hello_text {
+    right: 130px;
+    width: 90%;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .start_conteiner{
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .start_button {
+    right: 130px;
+    top: 0px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .start_icons {
+    left: 0;
+    display: none;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .start_photo {
+    right: 0;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .lamp, .kubok, .sertificat {
+    position: static;
+    transform: scale(0.8);
+  }
+
+  .englessons, .informaticslessons {
+    position: static;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    padding: 20px;
+  }
+}
+
+/* For mobile devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  header {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .logo {
+    bottom: 80px ;
+    left: 150px;
+    
+  }
+
+  .hello_text {
+    font-size: 24px;
+    height: 50%;
+    padding: 0 20px;
+  }
+
+  .start_button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .start_photo {
+    max-width: 300px;
+    display: none;
+  }
+
+  .start_icons {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    display: none;
+  }
+
+  .lamp, .kubok, .sertificat {
+    display: none;
+    transform: scale(0.6);
+  }
+
+  .eng_img, .inf_img {
+    width: 200px;
+    height: auto;
+  }
+
+  .englessons, .informaticslessons {
+    padding: 15px;
+    margin: 10px auto;
+  }
+
+  .engtime_btn, .inf_btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
+
+/* For small mobile devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .hello_text {
+    font-size: 20px;
+  }
+   .logo {
+    font-size: 15px;
+    bottom: 80px ;
+    left: 150px;
+    
+  }
+  .start_button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .start_photo {
+    display: none;
+    max-width: 250px;
+  }
+
+  .eng_img, .inf_img {
+    width: 150px;
+  }
+
+  .englessons, .informaticslessons {
+    font-size: 18px;
+  }
+}
+
+/* Fix for very small devices (max-width: 320px) */
+@media screen and (max-width: 320px) {
+  .hello_text {
+    font-size: 18px;
+    height: auto;
+  }
+
+  .start_photo {
+    display: none;
+    max-width: 200px;
+  }
+
+  .englessons, .informaticslessons {
+    padding: 10px;
+  }
+}
