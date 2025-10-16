@@ -1,0 +1,124 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 50px;
+    left: -30px;
+}
+
+body{
+    background-color: beige;
+}
+
+
+.logo{
+    font-size: large;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    display: flex;
+    position:fixed;
+    bottom: 840px;
+    left: 100px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(68, 0, 255);
+    right: 1300px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    
+    
+}
+
+.logo:hover{
+    color: rgb(0, 140, 255);
+    cursor: pointer;
+    
+}
+
+
+        /* Головний контейнер для всієї схеми */
+        .flowchart-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 900px;
+        }
+        
+        h1 {
+            font-size: 1.8em;
+            color: #1a237e;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        /* Контейнер, що тримає колонки поруч */
+        .flowchart-body {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        /* Стиль для колонок (Причини, Наслідки) */
+        .column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px; /* Відстань між блоками */
+            padding: 0 20px;
+        }
+        
+        /* Стиль для блоків */
+        .box {
+            background-color: #ffffff;
+            border: 2px solid #90a4ae;
+            border-radius: 8px;
+            padding: 12px 18px;
+            text-align: center;
+            width: 100%;
+            max-width: 200px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .box:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Пояснення всередині блоків */
+        .box .explanation {
+            display: block;
+            font-size: 0.8em;
+            color: #546e7a;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        /* Центральний блок */
+        .central-box {
+            background-color: #ffcba4;
+            border-color: #ff7043;
+            color: #c62828;
+            font-weight: bold;
+            font-size: 1.2em;
+            padding: 20px;
+        }
+        
+        /* Колонка зі стрілками */
+        .arrows {
+            font-size: 2.5em;
+            color: #546e7a;
+            padding: 0 15px;
+        }
+
+        /* Адаптивність для мобільних пристроїв */
+        @media (max-width: 768px) {
+            .flowchart-body {
+                flex-direction: column;
+            }
+            .arrows {
+                transform: rotate(90deg);
+                margin: 20px 0;
+            }
+        }
